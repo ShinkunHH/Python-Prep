@@ -6,14 +6,14 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 
 # In[7]:
-
+n_entero = 27
 
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
+print (type (8.5))
 
 
 
@@ -29,14 +29,14 @@
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
-
+nombre = 'Agustin'
 
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
-
+n_complejo = 7 - 2j
 
 
 
@@ -46,6 +46,7 @@
 # In[4]:
 
 
+print (type (n_complejo))
 
 
 
@@ -61,15 +62,15 @@ pi = 3.1416
 
 # In[3]:
 
-
-
-
+var1 = 'True'
+var2 = True
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
 
-
+print (type (var1))
+print (type (var2))
 
 
 
@@ -77,7 +78,8 @@ pi = 3.1416
 
 # In[1]:
 
-
+varnec = n_entero + pi
+print (varnec)
 
 
 
@@ -85,7 +87,7 @@ pi = 3.1416
 
 # In[2]:
 
-
+print (n_complejo + n_complejo)
 
 
 
@@ -94,14 +96,14 @@ pi = 3.1416
 # In[4]:
 
 
-
+print (n_entero + n_complejo)
 
 
 # 13) Realizar una operación de multiplicación
 
 # In[5]:
 
-
+print (9*3)
 
 
 
@@ -109,7 +111,7 @@ pi = 3.1416
 
 # In[6]:
 
-
+print (2**8)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
@@ -117,14 +119,14 @@ pi = 3.1416
 # In[8]:
 
 
-
+print (27/4)
 
 
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
 
-
+print (27//4)
 
 
 
@@ -133,14 +135,14 @@ pi = 3.1416
 # In[1]:
 
 
-
+print (27%4)
 
 
 # 18) Utilizando como operandos el número 4 y los resultados obtenidos en los puntos 16 y 17. Obtener 27 como resultado
 
 # In[2]:
 
-
+print (4*6 + 3)
 
 
 
@@ -148,7 +150,8 @@ pi = 3.1416
 
 # In[3]:
 
-
+apellido = 'Acevedo'
+print (nombre + ' ' + apellido)
 
 
 
@@ -156,7 +159,7 @@ pi = 3.1416
 
 # In[4]:
 
-
+'2' == 2
 
 
 
@@ -164,7 +167,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+print (int('2') == 2)
 
 
 
@@ -172,7 +175,7 @@ pi = 3.1416
 
 # In[12]:
 
-
+a = float('3,8')
 
 
 
@@ -180,13 +183,16 @@ pi = 3.1416
 
 # In[15]:
 
-
+var3 = 3
+var3-=1
+print (var3)
 
 
 
 # 24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
 
 # In[29]:
+1 << 2
 
 
 
